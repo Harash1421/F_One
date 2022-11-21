@@ -57,12 +57,12 @@ class _HomeViewState extends State<HomeView> {
   }
 
   @override
-  //Function For Calculate Age
   Widget build(BuildContext context) {
     //Scaffold Material
     return Scaffold(
       appBar: AppBar(
         title: const Text("AFind Age"),
+        backgroundColor: Colors.black,
       ),
       body: Container(
         alignment: Alignment.center,
